@@ -1,12 +1,12 @@
 # read me for resolve online contract creator "coming soon" page
 
-colors: --background-blue: #F0F8FB
-        --secondary-blue:  #406370
-        --red:             #D15555
+colors:              --background-blue: #F0F8FB
+                     --secondary-blue:  #406370
+                     --red:             #D15555
     
-fonts: Roboto
+fonts:               Roboto
 
-assets: located @ resolve-assets
+assets:              located @ resolve-assets
 
 copy: h1:            Instant, Affordable Contract Generation Settle Any Dispute Fast
       subheading:    Streamline your dispute resolution process with our automated contract generation service powered by the OpenAI API. Save time and money by quickly generating legally-binding contracts for any type of dispute.
