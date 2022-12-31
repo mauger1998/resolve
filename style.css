@@ -1,0 +1,24 @@
+:root {
+    --background-blue: #F0F8FB;
+    --secondary-blue:  #406370;
+    --red:             #D15555;
+}
+*,
+*::before,
+*::after {
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family: 'Roboto', sans-serif;
+}
+/**********
+            Safari Button Reset
+                                ************/
+
+button {
+    color:white;
+    background-color:var(--red);
+    border-radius:2rem;
+    cursor:pointer;
+}
