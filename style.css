@@ -139,6 +139,7 @@ nav {
     }
 }
 
+
 /************ Hero Section ***********/
 
 
@@ -212,24 +213,24 @@ main {
     color:var(--secondary-blue);
     font-size:0.8rem;
 }
-label {
+form {
     display:flex;
     margin-top:2rem;
 }
-.hero-section input {
+input {
     border-radius:2rem;
     border:1px solid black;
     width:400px;
     padding:0.75rem;
 }
-.hero-section label button {
+form button {
     margin-left:-3rem;
     padding-inline:2rem;
 }
 .gone {
     display:none;
 }
-.hero-section input:focus ~ button  {
+input:focus ~ button  {
     outline:2px solid blue;
 }
 @media (max-width:1195px) {
@@ -286,7 +287,7 @@ footer {
     padding-block:12rem;
 }
 
-label {
+form {
     display:flex;
     margin-top:2rem;
 }
@@ -296,9 +297,10 @@ input {
     width:400px;
     padding:0.75rem;
 }
-label button {
+form button {
     margin-left:-3rem;
     padding-inline:2rem;
+    
 }
 input:focus ~ button  {
     outline:2px solid blue;
