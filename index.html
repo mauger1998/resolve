@@ -22,20 +22,24 @@
             </div>
             <nav>
                 <ul>
-                    <li>home</li>
-                    <li>how it works</li>
-                    <li>pricing</li>
-                    <button>
-                        <li>Get Started</li>
-                    </button>
+                    <a aria-label="Home Link" href="index.html">
+                        <li>home</li>
+                    </a>
+                    <a aria-label="How it Works Link" href="#step-one">
+                        <li>how it works</li>
+                    </a>
+                    
                 </ul>
                 <img src="svg/menu-svgrepo-com(6).svg" alt="Hamburger Menu Icon for Mobile">
                 <div class="drop-down">
                     <ul>
-                        <li>home</li>
-                        <li>how it works</li>
-                        <li>pricing</li>
-                        <li>get started</li>
+                        <a aria-label="Home Link" href="index.html">
+                            <li>home</li>
+                        </a>
+                        <a aria-label="How it Works Link" href="#step-one">
+                            <li>how it works</li>
+                        </a>
+                        
                     </ul>
                 </div>
             </nav>
@@ -51,6 +55,9 @@
                     </div>
                     <p>Streamline your dispute resolution process with our automated contract generation service powered by the OpenAI API. Save time and money by quickly generating legally-binding contracts for any type of dispute.</p>
                     <form action="https://formsubmit.co/jordan@islandwebdesign.net" method="POST" />
+                    <input type="hidden" name="_captcha" value="false">
+
+
                         <input placeholder="Email" id="email" name="email" type="email">
                         <button type="submit" >Notify</button>
                 </form>
@@ -73,18 +80,18 @@
 
             </div>
             <div class="hero-right">
-                <img src="png-tinified/Group 7.png" alt="Hero Image of an Ai Lawyer Robot Person">
+                <img src="png-tinified/cropped-resolve.png" alt="Hero Image of an Ai Lawyer Robot Person">
             </div>
         </section>
     </main>
-    <section class="step-one-section">
+    <section id="step-one" class="step-one-section">
         <div class="step-one-wrapper">
             <div class="step-one-left">
                 <img src="png-tinified/My project (1) 1.png" alt="Robot Lawyer with a white helmet and blue wires">
             </div>
             <div class="step-one-right">
                 <strong>01</strong>
-                <p>Pick from one of our templates for a more tailored experience or you can opt for our experimental AI Generated option, whichever you choose, at the end you will have a legally binding contract.</p>
+                <p>Fill out our form about your dispute, your information, their information, the deliverables of the contract etc</p>
             </div>
         </div>
     </section>
@@ -93,7 +100,7 @@
             
             <div class="step-two-left">
                 <strong>02</strong>
-                <p>Next just give us some information about your company and the dispute that you are trying to settle so we can get a better understanding of what you are trying to achieve.</p>
+                <p>Now the Ai will generate your form, thats it. You can now edit your contract in our contract editor.</p>
             </div>
             <div class="step-two-right">
                 <img src="png-tinified/My project (2) 1.png" alt="Robot Lawyer with a white helmet and blue wires">
@@ -107,13 +114,16 @@
             </div>
             <div class="step-three-right">
                 <strong>03</strong>
-                <p>One, Two, Three... and thats it, our software will now spit out your legally binding contract ready to be signed.</p>
+                <p>You now have a legally binding contract ready to be signed, and on our dashboard you can manage all your contracts and relationships.</p>
             </div>
         </div>
     </section>
     <footer>
         <div class="footer-wrapper">
             <form action="https://formsubmit.co/jordan@islandwebdesign.net" method="POST" />
+            <input type="hidden" name="_captcha" value="false">
+
+
                 <input placeholder="Email" id="email" name="email" type="email">
                 <button type="submit" >Notify</button>
         </form>
